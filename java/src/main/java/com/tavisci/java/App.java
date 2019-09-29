@@ -14,6 +14,7 @@ public class App {
         String fileName1 = URLDecoder.decode(url.substring(url.lastIndexOf('/') + 1), "UTF-8");
         int post = url.lastIndexOf('/') + 1;
         System.out.println(post);
+        
         String fileName = URLDecoder.decode(url.substring(url.lastIndexOf('/') + 1));
         System.out.println(fileName1);
         System.out.println("testing man");
